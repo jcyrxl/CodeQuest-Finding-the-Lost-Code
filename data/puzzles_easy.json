@@ -1,0 +1,24 @@
+{
+  "puzzles": [
+	{"id":1,"question":"What is the binary of 2?","answer":"10","hint":"Binary counts using powers of 2"},
+	{"id":2,"question":"What is the binary of 3?","answer":"11","hint":"2 + 1"},
+	{"id":3,"question":"What is the binary of 4?","answer":"100","hint":"2^2"},
+	{"id":4,"question":"What is the binary of 5?","answer":"101","hint":"4 + 1"},
+	{"id":5,"question":"What is the binary of 6?","answer":"110","hint":"4 + 2"},
+	{"id":6,"question":"What is the binary of 7?","answer":"111","hint":"4 + 2 + 1"},
+	{"id":7,"question":"What is the binary of 8?","answer":"1000","hint":"Power of 2"},
+	{"id":8,"question":"What is 1 + 1 in binary?","answer":"10","hint":"Binary carry rule"},
+	{"id":9,"question":"What is 10 + 1 in binary?","answer":"11","hint":"Convert to decimal"},
+	{"id":10,"question":"What is 10 + 10 in binary?","answer":"100","hint":"2 + 2"},
+	{"id":11,"question":"What does CPU stand for?","answer":"Central Processing Unit","hint":"Brain of the computer"},
+	{"id":12,"question":"What device moves the cursor?","answer":"Mouse","hint":"Input device"},
+	{"id":13,"question":"What does RAM stand for?","answer":"Random Access Memory","hint":"Temporary memory"},
+	{"id":14,"question":"What is the smallest unit of data?","answer":"Bit","hint":"Binary digit"},
+	{"id":15,"question":"How many values can a bit represent?","answer":"2","hint":"0 and 1"},
+	{"id":16,"question":"What number system uses 0 and 1?","answer":"Binary","hint":"Used by computers"},
+	{"id":17,"question":"What is 1 + 0 in binary?","answer":"1","hint":"Basic addition"},
+	{"id":18,"question":"What is 0 + 0 in binary?","answer":"0","hint":"Zero rule"},
+	{"id":19,"question":"What is the binary of 1?","answer":"1","hint":"First binary number"},
+	{"id":20,"question":"What is the binary of 9?","answer":"1001","hint":"8 + 1"}
+  ]
+}
