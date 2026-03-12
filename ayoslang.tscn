@@ -1,0 +1,173 @@
+[gd_scene format=3 uid="uid://drgoko3j6pp4n"]
+
+[ext_resource type="Script" uid="uid://dc5u6j3n7hpkb" path="res://ayoslang.gd" id="1_meihp"]
+[ext_resource type="Texture2D" uid="uid://bs5d7lgob0snp" path="res://Assets/The Female Adventurer - Free/Idle/main.jpg" id="1_ogvgh"]
+[ext_resource type="FontFile" uid="uid://bwc17vjaqiv4p" path="res://Assets/The Female Adventurer - Free/Idle/alagard.ttf" id="2_meihp"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_meihp"]
+bg_color = Color(0.0134999985, 0.068325005, 0.09, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y3baj"]
+bg_color = Color(0.057999995, 0.29, 0.26293334, 0.49803922)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[node name="ayoslang" type="Control" unique_id=6671806]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_meihp")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=587893617]
+layout_mode = 0
+offset_right = 651.0
+offset_bottom = 359.0
+
+[node name="Main" type="Sprite2D" parent="." unique_id=1139506264]
+modulate = Color(0.58456355, 0.58456355, 0.58456355, 1)
+position = Vector2(327, 304)
+texture = ExtResource("1_ogvgh")
+
+[node name="Label" type="Label" parent="Main" unique_id=810459995]
+anchors_preset = -1
+anchor_left = -0.1015625
+anchor_right = -0.1015625
+offset_left = -214.0
+offset_top = -151.0
+offset_right = 271.0
+offset_bottom = -101.0
+theme_override_colors/font_color = Color(3.006686, 3.006686, 3.006686, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_meihp")
+theme_override_font_sizes/font_size = 53
+text = "Settings"
+metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="." unique_id=1941659821]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.090625
+anchor_top = 0.49166667
+anchor_right = -0.090625
+anchor_bottom = 0.49166667
+offset_left = -214.0
+offset_top = -151.0
+offset_right = 271.0
+offset_bottom = -101.0
+theme_override_colors/font_color = Color(3.006686, 3.006686, 3.006686, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_meihp")
+theme_override_font_sizes/font_size = 26
+text = "Volume"
+horizontal_alignment = 2
+vertical_alignment = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="volume" type="HSlider" parent="Label" unique_id=1929553996]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 22.0
+offset_right = 901.0
+offset_bottom = 54.0
+
+[node name="Label2" type="Label" parent="." unique_id=1021229453]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.09375
+anchor_top = 0.5388889
+anchor_right = -0.09375
+anchor_bottom = 0.5388889
+offset_left = -214.0
+offset_top = -151.0
+offset_right = 271.0
+offset_bottom = -101.0
+theme_override_colors/font_color = Color(3.006686, 3.006686, 3.006686, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_meihp")
+theme_override_font_sizes/font_size = 26
+text = "Music"
+horizontal_alignment = 2
+vertical_alignment = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="volume2" type="HSlider" parent="Label2" unique_id=498082840]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.017456358
+anchor_top = -0.09375
+anchor_right = 0.017456358
+anchor_bottom = -0.09375
+offset_left = 493.3242
+offset_top = 27.34375
+offset_right = 894.3242
+offset_bottom = 59.34375
+metadata/_edit_use_anchors_ = true
+
+[node name="Label3" type="Label" parent="." unique_id=507052147]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.24765626
+anchor_top = 0.6236111
+anchor_right = 0.24765626
+anchor_bottom = 0.6236111
+offset_left = -214.0
+offset_top = -151.0
+offset_right = 271.0
+offset_bottom = -101.0
+theme_override_colors/font_color = Color(3.006686, 3.006686, 3.006686, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_meihp")
+theme_override_font_sizes/font_size = 26
+text = "SFX"
+metadata/_edit_use_anchors_ = true
+
+[node name="volume3" type="HSlider" parent="Label3" unique_id=262884071]
+layout_mode = 0
+offset_left = 66.0
+offset_top = -3.0
+offset_right = 467.0
+offset_bottom = 29.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=843327065]
+position = Vector2(328, 304)
+zoom = Vector2(2, 2)
+
+[node name="Back" type="Button" parent="." unique_id=70003671]
+layout_mode = 0
+offset_left = 59.0
+offset_top = 419.0
+offset_right = 128.0
+offset_bottom = 452.0
+theme_override_colors/font_color = Color(16.737032, 16.737032, 16.737032, 1)
+theme_override_styles/normal = SubResource("StyleBoxFlat_meihp")
+text = "<<<"
+
+[node name="Default" type="Button" parent="." unique_id=352918160]
+layout_mode = 0
+offset_left = 243.0
+offset_top = 345.0
+offset_right = 388.0
+offset_bottom = 376.0
+theme_override_fonts/font = ExtResource("2_meihp")
+theme_override_styles/normal = SubResource("StyleBoxFlat_y3baj")
+text = "Default Settings"
+
+[node name="Save" type="Button" parent="." unique_id=392233670]
+layout_mode = 0
+offset_left = 458.0
+offset_top = 421.0
+offset_right = 603.0
+offset_bottom = 452.0
+theme_override_fonts/font = ExtResource("2_meihp")
+theme_override_styles/normal = SubResource("StyleBoxFlat_y3baj")
+text = "Save "
+
+[connection signal="value_changed" from="Label/volume" to="." method="_on_volume_value_changed"]
+[connection signal="value_changed" from="Label2/volume2" to="." method="_on_volume_value_changed"]
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]

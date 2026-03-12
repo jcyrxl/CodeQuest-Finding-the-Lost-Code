@@ -1,0 +1,180 @@
+[gd_scene format=3 uid="uid://b65blky2a2sm1"]
+
+[ext_resource type="Texture2D" uid="uid://bs5d7lgob0snp" path="res://Assets/The Female Adventurer - Free/Idle/main.jpg" id="1_nohv5"]
+[ext_resource type="Script" uid="uid://k60dslb0vf8y" path="res://ayosayos.gd" id="1_ttwu6"]
+[ext_resource type="FontFile" uid="uid://bwc17vjaqiv4p" path="res://Assets/The Female Adventurer - Free/Idle/alagard.ttf" id="2_ttwu6"]
+[ext_resource type="Script" uid="uid://dofjhoqu6hcme" path="res://yeah.gd" id="4_tvkdw"]
+[ext_resource type="PackedScene" uid="uid://dlaps5tfil1jh" path="res://pausemuna.tscn" id="5_d304a"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b5vj8"]
+bg_color = Color(0.0357, 0.18676001, 0.21, 0)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d304a"]
+bg_color = Color(0.057999995, 0.29, 0.26293334, 0.49803922)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+
+[node name="Control" type="Control" unique_id=1569635039]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ttwu6")
+
+[node name="Main" type="Sprite2D" parent="." unique_id=1778478027]
+modulate = Color(0.58456355, 0.58456355, 0.58456355, 1)
+position = Vector2(327, 304)
+texture = ExtResource("1_nohv5")
+
+[node name="Settings" type="Label" parent="Main" unique_id=1772927780]
+anchors_preset = -1
+anchor_left = -0.1015625
+anchor_right = -0.1015625
+offset_left = -214.0
+offset_top = -151.0
+offset_right = 271.0
+offset_bottom = -101.0
+theme_override_colors/font_color = Color(3.006686, 3.006686, 3.006686, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_ttwu6")
+theme_override_font_sizes/font_size = 53
+text = "Settings"
+metadata/_edit_use_anchors_ = true
+
+[node name="Label2" type="Label" parent="Main/Settings" unique_id=1402490124]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -0.1015625
+anchor_right = -0.1015625
+offset_left = 49.257813
+offset_right = 534.2578
+offset_bottom = 50.0
+theme_override_colors/font_color = Color(3.006686, 3.006686, 3.006686, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_ttwu6")
+theme_override_font_sizes/font_size = 53
+text = "Settings"
+
+[node name="Volume" type="Label" parent="Main" unique_id=793679082]
+anchors_preset = -1
+anchor_left = -0.090625
+anchor_top = 0.49166667
+anchor_right = -0.090625
+anchor_bottom = 0.49166667
+offset_left = -582.0
+offset_top = -267.0
+offset_right = -97.0
+offset_bottom = -217.0
+theme_override_colors/font_color = Color(3.006686, 3.006686, 3.006686, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_ttwu6")
+theme_override_font_sizes/font_size = 26
+text = "Volume"
+horizontal_alignment = 2
+vertical_alignment = 2
+
+[node name="volume" type="HSlider" parent="Main/Volume" unique_id=634178578]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 22.0
+offset_right = 901.0
+offset_bottom = 54.0
+
+[node name="Music" type="Label" parent="Main" unique_id=650627820]
+anchors_preset = -1
+anchor_left = -0.09375
+anchor_top = 0.5388889
+anchor_right = -0.09375
+anchor_bottom = 0.5388889
+offset_left = -582.0
+offset_top = -247.0
+offset_right = -97.0
+offset_bottom = -197.0
+theme_override_colors/font_color = Color(3.006686, 3.006686, 3.006686, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_ttwu6")
+theme_override_font_sizes/font_size = 26
+text = "Music"
+horizontal_alignment = 2
+vertical_alignment = 2
+
+[node name="volume2" type="HSlider" parent="Main/Music" unique_id=686037493]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.017456358
+anchor_top = -0.09375
+anchor_right = 0.017456358
+anchor_bottom = -0.09375
+offset_left = 493.3242
+offset_top = 27.34375
+offset_right = 894.3242
+offset_bottom = 59.34375
+
+[node name="SFX" type="Label" parent="Main" unique_id=679877591]
+anchors_preset = -1
+anchor_left = 0.22200002
+anchor_top = 0.6236111
+anchor_right = 0.24765626
+anchor_bottom = 0.6236111
+offset_left = -348.08002
+offset_top = -213.5
+offset_right = 121.5
+offset_bottom = -163.5
+theme_override_colors/font_color = Color(3.006686, 3.006686, 3.006686, 1)
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("2_ttwu6")
+theme_override_font_sizes/font_size = 26
+text = "SFX"
+
+[node name="volume3" type="HSlider" parent="Main/SFX" unique_id=602262932]
+layout_mode = 0
+offset_left = 66.0
+offset_top = -3.0
+offset_right = 467.0
+offset_bottom = 29.0
+
+[node name="Camera2D" type="Camera2D" parent="Main" unique_id=1852082419]
+zoom = Vector2(2, 2)
+
+[node name="yeah" type="Button" parent="." unique_id=1648941410]
+layout_mode = 0
+offset_left = 33.0
+offset_top = 420.0
+offset_right = 89.0
+offset_bottom = 470.0
+theme_override_styles/normal = SubResource("StyleBoxFlat_b5vj8")
+text = "<<<"
+script = ExtResource("4_tvkdw")
+
+[node name="Default" type="Button" parent="." unique_id=489324886]
+layout_mode = 0
+offset_left = 267.0
+offset_top = 362.0
+offset_right = 412.0
+offset_bottom = 393.0
+theme_override_fonts/font = ExtResource("2_ttwu6")
+theme_override_styles/normal = SubResource("StyleBoxFlat_d304a")
+text = "Default Settings"
+
+[node name="Save" type="Button" parent="." unique_id=952112598]
+layout_mode = 0
+offset_left = 467.0
+offset_top = 433.0
+offset_right = 612.0
+offset_bottom = 464.0
+theme_override_fonts/font = ExtResource("2_ttwu6")
+theme_override_styles/normal = SubResource("StyleBoxFlat_d304a")
+text = "Save "
+
+[node name="Pause" parent="." unique_id=1097768970 instance=ExtResource("5_d304a")]
+layout_mode = 1
+offset_left = 1949.0
+offset_top = 2668.0
+offset_right = 1949.0
+offset_bottom = 2668.0
+
+[connection signal="pressed" from="yeah" to="." method="_on_yeah_pressed"]
