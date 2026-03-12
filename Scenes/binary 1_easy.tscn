@@ -1,0 +1,680 @@
+[gd_scene format=3 uid="uid://mti53vpgmyom"]
+
+[ext_resource type="Texture2D" uid="uid://djuwllfg5dwmx" path="res://Assets/FreeEnvironment/Free Forest Tileset (16x16)/forest_tile.png" id="1_mt0fy"]
+[ext_resource type="Texture2D" uid="uid://bl5dae7x5a02c" path="res://Assets/The Female Adventurer - Free/Idle/Gameplay (2).jpg" id="2_vls8c"]
+[ext_resource type="FontFile" uid="uid://87uw0cxamhjo" path="res://Assets/The Female Adventurer - Free/Minecraft.ttf" id="3_ohykv"]
+[ext_resource type="Texture2D" uid="uid://h3n3aocbvem6" path="res://Scenes/1280x1280/BIG inverted hourglass1.png" id="4_osvw6"]
+[ext_resource type="Texture2D" uid="uid://dvvg13aitb73x" path="res://Scenes/hearts.png" id="6_vy0vx"]
+[ext_resource type="Texture2D" uid="uid://hwyx6i757jle" path="res://Scenes/stone.png" id="7_36ckv"]
+[ext_resource type="Texture2D" uid="uid://bgf5jxrvn2g2b" path="res://Scenes/gitnang stone.png" id="8_vg181"]
+[ext_resource type="Texture2D" uid="uid://cgqptqe00u22s" path="res://Assets/The Female Adventurer - Free/Adobe Express - file.png" id="9_8681x"]
+[ext_resource type="Texture2D" uid="uid://bqfgsqap8uiap" path="res://Assets/The Female Adventurer - Free/Walk/basta baggg.png" id="10_hhysq"]
+[ext_resource type="Texture2D" uid="uid://st7juoqamkn3" path="res://Assets/The Female Adventurer - Free/Idle/gate.png" id="11_vls8c"]
+[ext_resource type="Texture2D" uid="uid://ch1idymnb76ns" path="res://Assets/The Female Adventurer - Free/Walk/magnifying glass.png" id="11_vpwkd"]
+[ext_resource type="Texture2D" uid="uid://bj68w0ra780hm" path="res://Assets/The Female Adventurer - Free/Walk/pause.png" id="14_wrtlv"]
+[ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://Virtual-Joystick-Godot-Main/addons/virtual_joystick/virtual_joystick_scene.tscn" id="15_mt0fy"]
+[ext_resource type="Texture2D" uid="uid://bfkvcgdm67lmc" path="res://Assets/The Female Adventurer - Free/Walk/key.png" id="15_wv8w1"]
+[ext_resource type="PackedScene" uid="uid://cgq3dty86aemc" path="res://player.tscn" id="16_vls8c"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_kbgac"]
+texture = ExtResource("1_mt0fy")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+7:0/0 = 0
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+12:0/0 = 0
+13:0/0 = 0
+14:0/0 = 0
+15:0/0 = 0
+16:0/0 = 0
+17:0/0 = 0
+18:0/0 = 0
+19:0/0 = 0
+20:0/0 = 0
+21:0/0 = 0
+22:0/0 = 0
+23:0/0 = 0
+24:0/0 = 0
+25:0/0 = 0
+26:0/0 = 0
+27:0/0 = 0
+28:0/0 = 0
+29:0/0 = 0
+30:0/0 = 0
+31:0/0 = 0
+32:0/0 = 0
+33:0/0 = 0
+34:0/0 = 0
+35:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+7:1/0 = 0
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+12:1/0 = 0
+13:1/0 = 0
+14:1/0 = 0
+15:1/0 = 0
+16:1/0 = 0
+17:1/0 = 0
+18:1/0 = 0
+19:1/0 = 0
+20:1/0 = 0
+21:1/0 = 0
+22:1/0 = 0
+23:1/0 = 0
+24:1/0 = 0
+25:1/0 = 0
+26:1/0 = 0
+27:1/0 = 0
+28:1/0 = 0
+29:1/0 = 0
+30:1/0 = 0
+31:1/0 = 0
+32:1/0 = 0
+33:1/0 = 0
+34:1/0 = 0
+35:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+4:2/0 = 0
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+12:2/0 = 0
+13:2/0 = 0
+14:2/0 = 0
+15:2/0 = 0
+16:2/0 = 0
+17:2/0 = 0
+18:2/0 = 0
+19:2/0 = 0
+20:2/0 = 0
+21:2/0 = 0
+22:2/0 = 0
+23:2/0 = 0
+24:2/0 = 0
+25:2/0 = 0
+26:2/0 = 0
+27:2/0 = 0
+28:2/0 = 0
+29:2/0 = 0
+30:2/0 = 0
+31:2/0 = 0
+32:2/0 = 0
+33:2/0 = 0
+34:2/0 = 0
+35:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+4:3/0 = 0
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+12:3/0 = 0
+13:3/0 = 0
+14:3/0 = 0
+15:3/0 = 0
+16:3/0 = 0
+17:3/0 = 0
+18:3/0 = 0
+19:3/0 = 0
+20:3/0 = 0
+21:3/0 = 0
+22:3/0 = 0
+23:3/0 = 0
+24:3/0 = 0
+25:3/0 = 0
+26:3/0 = 0
+27:3/0 = 0
+28:3/0 = 0
+29:3/0 = 0
+30:3/0 = 0
+31:3/0 = 0
+32:3/0 = 0
+33:3/0 = 0
+34:3/0 = 0
+35:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+4:4/0 = 0
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+11:4/0 = 0
+12:4/0 = 0
+13:4/0 = 0
+14:4/0 = 0
+15:4/0 = 0
+16:4/0 = 0
+17:4/0 = 0
+18:4/0 = 0
+19:4/0 = 0
+20:4/0 = 0
+21:4/0 = 0
+22:4/0 = 0
+23:4/0 = 0
+24:4/0 = 0
+25:4/0 = 0
+26:4/0 = 0
+27:4/0 = 0
+28:4/0 = 0
+29:4/0 = 0
+30:4/0 = 0
+31:4/0 = 0
+32:4/0 = 0
+33:4/0 = 0
+34:4/0 = 0
+35:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+11:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+14:5/0 = 0
+15:5/0 = 0
+16:5/0 = 0
+17:5/0 = 0
+18:5/0 = 0
+19:5/0 = 0
+20:5/0 = 0
+21:5/0 = 0
+22:5/0 = 0
+23:5/0 = 0
+24:5/0 = 0
+25:5/0 = 0
+26:5/0 = 0
+27:5/0 = 0
+28:5/0 = 0
+29:5/0 = 0
+30:5/0 = 0
+31:5/0 = 0
+32:5/0 = 0
+33:5/0 = 0
+34:5/0 = 0
+35:5/0 = 0
+0:6/0 = 0
+1:6/0 = 0
+2:6/0 = 0
+3:6/0 = 0
+4:6/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+10:6/0 = 0
+11:6/0 = 0
+12:6/0 = 0
+13:6/0 = 0
+14:6/0 = 0
+15:6/0 = 0
+16:6/0 = 0
+17:6/0 = 0
+18:6/0 = 0
+19:6/0 = 0
+20:6/0 = 0
+23:6/0 = 0
+24:6/0 = 0
+25:6/0 = 0
+26:6/0 = 0
+27:6/0 = 0
+28:6/0 = 0
+29:6/0 = 0
+30:6/0 = 0
+31:6/0 = 0
+32:6/0 = 0
+33:6/0 = 0
+35:6/0 = 0
+0:7/0 = 0
+1:7/0 = 0
+2:7/0 = 0
+3:7/0 = 0
+4:7/0 = 0
+5:7/0 = 0
+6:7/0 = 0
+7:7/0 = 0
+8:7/0 = 0
+9:7/0 = 0
+10:7/0 = 0
+11:7/0 = 0
+12:7/0 = 0
+13:7/0 = 0
+14:7/0 = 0
+15:7/0 = 0
+16:7/0 = 0
+17:7/0 = 0
+18:7/0 = 0
+19:7/0 = 0
+20:7/0 = 0
+21:7/0 = 0
+22:7/0 = 0
+23:7/0 = 0
+24:7/0 = 0
+25:7/0 = 0
+26:7/0 = 0
+27:7/0 = 0
+28:7/0 = 0
+29:7/0 = 0
+30:7/0 = 0
+31:7/0 = 0
+32:7/0 = 0
+33:7/0 = 0
+34:7/0 = 0
+35:7/0 = 0
+0:8/0 = 0
+1:8/0 = 0
+2:8/0 = 0
+3:8/0 = 0
+4:8/0 = 0
+5:8/0 = 0
+6:8/0 = 0
+7:8/0 = 0
+8:8/0 = 0
+9:8/0 = 0
+10:8/0 = 0
+11:8/0 = 0
+12:8/0 = 0
+13:8/0 = 0
+14:8/0 = 0
+15:8/0 = 0
+16:8/0 = 0
+17:8/0 = 0
+18:8/0 = 0
+19:8/0 = 0
+20:8/0 = 0
+21:8/0 = 0
+22:8/0 = 0
+23:8/0 = 0
+24:8/0 = 0
+25:8/0 = 0
+26:8/0 = 0
+27:8/0 = 0
+28:8/0 = 0
+29:8/0 = 0
+30:8/0 = 0
+31:8/0 = 0
+32:8/0 = 0
+33:8/0 = 0
+34:8/0 = 0
+35:8/0 = 0
+0:9/0 = 0
+1:9/0 = 0
+2:9/0 = 0
+3:9/0 = 0
+4:9/0 = 0
+5:9/0 = 0
+6:9/0 = 0
+7:9/0 = 0
+8:9/0 = 0
+9:9/0 = 0
+10:9/0 = 0
+11:9/0 = 0
+12:9/0 = 0
+13:9/0 = 0
+14:9/0 = 0
+15:9/0 = 0
+16:9/0 = 0
+17:9/0 = 0
+18:9/0 = 0
+19:9/0 = 0
+20:9/0 = 0
+21:9/0 = 0
+22:9/0 = 0
+23:9/0 = 0
+24:9/0 = 0
+25:9/0 = 0
+26:9/0 = 0
+27:9/0 = 0
+28:9/0 = 0
+29:9/0 = 0
+30:9/0 = 0
+31:9/0 = 0
+32:9/0 = 0
+33:9/0 = 0
+34:9/0 = 0
+35:9/0 = 0
+0:10/0 = 0
+1:10/0 = 0
+2:10/0 = 0
+3:10/0 = 0
+4:10/0 = 0
+5:10/0 = 0
+6:10/0 = 0
+7:10/0 = 0
+8:10/0 = 0
+9:10/0 = 0
+10:10/0 = 0
+11:10/0 = 0
+12:10/0 = 0
+13:10/0 = 0
+14:10/0 = 0
+15:10/0 = 0
+16:10/0 = 0
+17:10/0 = 0
+18:10/0 = 0
+19:10/0 = 0
+20:10/0 = 0
+21:10/0 = 0
+22:10/0 = 0
+23:10/0 = 0
+24:10/0 = 0
+25:10/0 = 0
+26:10/0 = 0
+27:10/0 = 0
+28:10/0 = 0
+29:10/0 = 0
+30:10/0 = 0
+31:10/0 = 0
+32:10/0 = 0
+33:10/0 = 0
+34:10/0 = 0
+35:10/0 = 0
+0:11/0 = 0
+1:11/0 = 0
+2:11/0 = 0
+3:11/0 = 0
+4:11/0 = 0
+5:11/0 = 0
+6:11/0 = 0
+7:11/0 = 0
+8:11/0 = 0
+9:11/0 = 0
+10:11/0 = 0
+11:11/0 = 0
+12:11/0 = 0
+13:11/0 = 0
+14:11/0 = 0
+15:11/0 = 0
+16:11/0 = 0
+17:11/0 = 0
+18:11/0 = 0
+19:11/0 = 0
+20:11/0 = 0
+21:11/0 = 0
+22:11/0 = 0
+23:11/0 = 0
+24:11/0 = 0
+25:11/0 = 0
+26:11/0 = 0
+27:11/0 = 0
+28:11/0 = 0
+29:11/0 = 0
+30:11/0 = 0
+31:11/0 = 0
+32:11/0 = 0
+33:11/0 = 0
+34:11/0 = 0
+35:11/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_g754f"]
+sources/0 = SubResource("TileSetAtlasSource_kbgac")
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_mt0fy"]
+normal = Vector2(0.090287454, -0.9959158)
+distance = -1920.0355
+
+[sub_resource type="TileSet" id="TileSet_gffux"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rgxos"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8dqd0"]
+atlas = ExtResource("6_vy0vx")
+region = Rect2(0, 0, 19, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e1hrb"]
+atlas = ExtResource("6_vy0vx")
+region = Rect2(19, 0, 19, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3wuj5"]
+atlas = ExtResource("6_vy0vx")
+region = Rect2(38, 0, 19, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wnbjm"]
+atlas = ExtResource("6_vy0vx")
+region = Rect2(57, 0, 19, 17)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8hfgy"]
+atlas = ExtResource("6_vy0vx")
+region = Rect2(76, 0, 19, 17)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cph0j"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8dqd0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e1hrb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3wuj5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wnbjm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8hfgy")
+}],
+"loop": true,
+"name": &"default",
+"speed": 6.0
+}]
+
+[node name="mainmenu" type="Node2D" unique_id=317768141]
+
+[node name="Control" type="Control" parent="." unique_id=1840437547]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Control" type="Control" parent="Control" unique_id=1891165795]
+layout_mode = 1
+anchor_left = -1.7
+anchor_top = -4.425
+anchor_right = -1.7
+anchor_bottom = -2.925
+offset_left = -132.0
+offset_top = -259.0
+offset_right = 108.0
+offset_bottom = -213.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1143664967]
+
+[node name="path" type="TileMap" parent="Node2D" unique_id=899957908]
+tile_set = SubResource("TileSet_g754f")
+format = 2
+layer_0/y_sort_origin = 16
+
+[node name="Gameplay(2)" type="Sprite2D" parent="Node2D/path" unique_id=1284886404]
+position = Vector2(-507, 346)
+texture = ExtResource("2_vls8c")
+
+[node name="Label2" type="Label" parent="Node2D/path/Gameplay(2)" unique_id=1559763406]
+custom_minimum_size = Vector2(12, 12)
+offset_left = -847.0
+offset_top = -320.0
+offset_right = -775.0
+offset_bottom = -275.0
+theme_override_fonts/font = ExtResource("3_ohykv")
+theme_override_font_sizes/font_size = 36
+text = "10"
+metadata/_edit_use_anchors_ = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Node2D/path/Gameplay(2)" unique_id=13265937]
+position = Vector2(-951, -511)
+shape = SubResource("WorldBoundaryShape2D_mt0fy")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Node2D/path/Gameplay(2)" unique_id=1768419933]
+position = Vector2(967, -511)
+shape = SubResource("WorldBoundaryShape2D_mt0fy")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Node2D/path/Gameplay(2)" unique_id=1760649238]
+position = Vector2(-932, 527)
+rotation = -1.5864344
+shape = SubResource("WorldBoundaryShape2D_mt0fy")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Node2D/path/Gameplay(2)" unique_id=963236785]
+position = Vector2(940, -511)
+rotation = 1.4841654
+shape = SubResource("WorldBoundaryShape2D_mt0fy")
+
+[node name="TileMap" type="TileMap" parent="Node2D/path" unique_id=1145796229]
+tile_set = SubResource("TileSet_gffux")
+format = 2
+
+[node name="Timer" type="AnimatedSprite2D" parent="Node2D" unique_id=59051924]
+sprite_frames = SubResource("SpriteFrames_rgxos")
+
+[node name="BigInvertedHourglass1" type="Sprite2D" parent="." unique_id=1524801980]
+show_behind_parent = true
+top_level = true
+position = Vector2(-578, -132.99988)
+scale = Vector2(0.055664055, 0.050781358)
+texture = ExtResource("4_osvw6")
+
+[node name="Heart" type="AnimatedSprite2D" parent="." unique_id=956167365]
+position = Vector2(-1387.4375, -137.99998)
+scale = Vector2(4.6907873, 3.2573543)
+sprite_frames = SubResource("SpriteFrames_cph0j")
+
+[node name="Heart 2" type="AnimatedSprite2D" parent="." unique_id=1096945882]
+position = Vector2(-1299.875, -138.31248)
+scale = Vector2(4.6907873, 3.2573543)
+sprite_frames = SubResource("SpriteFrames_cph0j")
+
+[node name="Heart 3" type="AnimatedSprite2D" parent="." unique_id=659025129]
+position = Vector2(-1209.8751, -138.31248)
+scale = Vector2(4.6907873, 3.2573543)
+sprite_frames = SubResource("SpriteFrames_cph0j")
+
+[node name="Stone" type="Sprite2D" parent="." unique_id=1896553040]
+position = Vector2(-991, 111)
+scale = Vector2(0.2942857, 0.26)
+texture = ExtResource("7_36ckv")
+
+[node name="Stone2" type="Sprite2D" parent="." unique_id=909190895]
+position = Vector2(-909, 708)
+scale = Vector2(0.2942857, 0.26)
+texture = ExtResource("7_36ckv")
+
+[node name="Stone3" type="Sprite2D" parent="." unique_id=1440026895]
+position = Vector2(-1131, 541)
+scale = Vector2(0.2942857, 0.26)
+texture = ExtResource("7_36ckv")
+
+[node name="Stone4" type="Sprite2D" parent="." unique_id=786461116]
+position = Vector2(-78, 710)
+scale = Vector2(0.2942857, 0.26)
+texture = ExtResource("7_36ckv")
+
+[node name="GitnangStone" type="Sprite2D" parent="." unique_id=252920010]
+position = Vector2(-495, 261)
+scale = Vector2(1, 0.99583364)
+texture = ExtResource("8_vg181")
+
+[node name="AdobeExpressFile" type="Sprite2D" parent="." unique_id=2056515645]
+top_level = true
+position = Vector2(217, 59.75)
+scale = Vector2(0.7916667, 0.8917526)
+texture = ExtResource("9_8681x")
+
+[node name="BastaBaggg" type="Sprite2D" parent="." unique_id=1300312213]
+position = Vector2(-1390.75, -54.890633)
+scale = Vector2(0.25053322, 0.23225953)
+texture = ExtResource("10_hhysq")
+
+[node name="Gate" type="Sprite2D" parent="." unique_id=1170545597]
+position = Vector2(-483, 47.000004)
+scale = Vector2(2.306266, 1.88745)
+texture = ExtResource("11_vls8c")
+
+[node name="MagnifyingGlass" type="Sprite2D" parent="." unique_id=1501485163]
+top_level = true
+position = Vector2(-1397.3334, 38.000004)
+rotation = 1.3526301
+scale = Vector2(0.16903733, 0.16837013)
+texture = ExtResource("11_vpwkd")
+
+[node name="Label" type="Label" parent="." unique_id=1060022061]
+custom_minimum_size = Vector2(12, 12)
+offset_left = -542.0
+offset_top = -147.0
+offset_right = -470.0
+offset_bottom = -102.0
+theme_override_constants/outline_size = 8
+theme_override_fonts/font = ExtResource("3_ohykv")
+theme_override_font_sizes/font_size = 36
+text = "6:07"
+metadata/_edit_use_anchors_ = true
+
+[node name="Pause" type="Sprite2D" parent="." unique_id=2107775646]
+modulate = Color(0, 0, 0, 1)
+top_level = true
+position = Vector2(371.375, -118.4375)
+scale = Vector2(0.31474358, 0.32511878)
+texture = ExtResource("14_wrtlv")
+
+[node name="Key" type="Sprite2D" parent="." unique_id=306319937]
+top_level = true
+position = Vector2(-44.000015, 742)
+scale = Vector2(0.026400002, 0.026200013)
+texture = ExtResource("15_wv8w1")
+
+[node name="Player" parent="." unique_id=1944474905 instance=ExtResource("16_vls8c")]
+position = Vector2(-1066, 232)
+
+[node name="Camera2D2" type="Camera2D" parent="Player" unique_id=1672041931]
+position = Vector2(534, 132)
+zoom = Vector2(0.7, 0.7)
+limit_right = 1999999
+drag_horizontal_offset = -0.07
+
+[node name="Virtual Joystick" parent="." unique_id=776700018 instance=ExtResource("15_mt0fy")]
+modulate = Color(0.6538209, 0.6538209, 0.6538209, 0.4117647)
+offset_left = -1377.0
+offset_top = 548.0
+offset_right = -1077.0
+offset_bottom = 848.0

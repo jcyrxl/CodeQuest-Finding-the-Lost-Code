@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://cd5lqja5pr1jb"]
+
+[ext_resource type="Texture2D" uid="uid://c60uke375rnjt" path="res://Assets/The Female Adventurer - Free/Idle/Bug Slayer.jpg" id="1_mmi77"]
+[ext_resource type="FontFile" uid="uid://bwc17vjaqiv4p" path="res://Assets/The Female Adventurer - Free/Idle/alagard.ttf" id="2_0luxd"]
+
+[node name="Node2D" type="Node2D" unique_id=611853951]
+
+[node name="BugSlayer" type="Sprite2D" parent="." unique_id=1282183167]
+position = Vector2(706, 596)
+scale = Vector2(1.0354167, 1.0537037)
+texture = ExtResource("1_mmi77")
+
+[node name="Label" type="Label" parent="." unique_id=296823800]
+offset_left = 548.0
+offset_top = 138.0
+offset_right = 932.0
+offset_bottom = 318.0
+theme_override_fonts/font = ExtResource("2_0luxd")
+theme_override_font_sizes/font_size = 150
+text = "GAME"
+
+[node name="Label2" type="Label" parent="." unique_id=2047851240]
+offset_left = 462.0
+offset_top = 307.0
+offset_right = 1006.0
+offset_bottom = 487.0
+theme_override_fonts/font = ExtResource("2_0luxd")
+theme_override_font_sizes/font_size = 150
+text = "PAUSED"

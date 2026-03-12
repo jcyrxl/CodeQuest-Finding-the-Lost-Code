@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://br3e0pcoo1hy0"]
+
+[node name="mainmenu" type="Node2D" unique_id=317768141]
+
+[node name="Control" type="Control" parent="." unique_id=1840437547]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Control" type="Control" parent="Control" unique_id=1891165795]
+layout_mode = 1
+anchor_top = -1.5000001
+offset_left = -132.0
+offset_top = -259.0
+offset_right = 108.0
+offset_bottom = -213.0
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1143664967]
